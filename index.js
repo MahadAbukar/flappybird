@@ -22,6 +22,7 @@ window.onload = function() {
     var scor = new Audio();
     fly.src = "sounds/fly.mp3";
     scor.src = "sounds/score.mp3";
+    const audio.currentTime = 0;
 
     // keys
     document.addEventListener("keydown", moveUp);
